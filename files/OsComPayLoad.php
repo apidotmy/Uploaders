@@ -1,4 +1,4 @@
-<title>En Banglasia</title>
+En Banglasia
 <?php
 function http_get($url){
 	$im = curl_init($url);
