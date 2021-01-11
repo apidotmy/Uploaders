@@ -12,7 +12,7 @@ if(get_magic_quotes_gpc()){
 echo '<!DOCTYPE HTML>
 <HTML>
 <HEAD>
-<title>File Manager By En Banglasia</title>
+<title>Files Manager By Dragon Force!</title>
 <style>
 body{
    font-family: "Racing Sans One", cursive;
